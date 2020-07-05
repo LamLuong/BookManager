@@ -45,10 +45,6 @@ th {
           <td><form:input path="bookName" size="30" maxlength="30"></form:input></td>
         </tr>
 		<tr>
-			    <td><form:label path="email">Email:</form:label></td>
-          <td><form:input path="email" size="30" maxlength="30"></form:input></td>
-		</tr>
-		<tr>
 			<td colspan="2"><input type="submit"
 				class="blue-button" /></td>
 		</tr>
