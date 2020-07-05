@@ -5,16 +5,16 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
-@SpringBootApplication
-public class SpringBootWebApplication extends SpringBootServletInitializer {
+@SpringBootApplication(scanBasePackages={"net.fortna.book.dao"})
+public class BookMgrApp extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(SpringBootWebApplication.class);
+		return application.sources(BookMgrApp.class);
 	}
 
 	public static void main(String[] args) throws Exception {
-		SpringApplication.run(SpringBootWebApplication.class, args);
+		SpringApplication.run(BookMgrApp.class, args);
 	}
 
 }
