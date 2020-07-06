@@ -57,7 +57,6 @@ th {
 	<tr>
 		<th width="80">Id</th>
 		<th width="120">Book Name</th>
-		<th width="120">Email</th>
 		<th width="60">Edit</th>
 		<th width="60">Delete</th>
 	</tr>
